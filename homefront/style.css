@@ -1,0 +1,105 @@
+body{
+    background: black;
+}
+
+h1{
+    position: absolute;
+    width: 569px;
+    height: 62px;
+    left: 119px;
+    top: 359px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 74px;
+    color: #FFFFFF;
+}
+
+.logo{
+    position: absolute;
+    width: 221px;
+    height: 158px;
+    left: 82px;
+    top: -10px;
+}
+
+.contato{
+    position: absolute;
+    width: 106px;
+    height: 28px;
+    left: 1601px;
+    top: 55px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.doe{
+    position: absolute;
+    width: 47px;
+    height: 28px;
+    left: 1505px;
+    top: 55px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.elipse1{
+    position: absolute;
+    width: 324px;
+    height: 324px;
+    left: 981px;
+    top: 96px;
+
+}
+
+.elipse2{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 1249px;
+    top: 492px;
+    
+}
+
+
+.plaquinha{
+    position: absolute;
+    width: 426px;
+    height: 426px;
+    left: 1306px;
+    top: 219px;
+    background: url(images/2009421\ 1.png);
+    backdrop-filter: blur(4px);
+}
+.sobre{
+    position: absolute;
+    width: 82px;
+    height: 28px;
+    left: 1380px;
+    top: 55px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.vector1 {
+    position: absolute;
+    width: 1119px;
+    height: 1302px;
+    left: 799px;
+    top: -175px;
+
+    
+}
