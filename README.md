@@ -2,10 +2,10 @@
 
 ## Objetivos - Front-End
 
-- [ ] Fazer home
+- [x] Fazer home
 - [x] Fazer logo
 - [ ] Versão mobile
-- [ ] Posicionamento estar okay
+- [x] Posicionamento estar okay
 - [ ] Animações de formulario - JS
 - [ ] Animações na home - JS
 
