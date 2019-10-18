@@ -2,18 +2,11 @@ body{
     background: black;
 }
 
-h1{
+.reprograme{
     position: absolute;
-    width: 569px;
-    height: 62px;
+    height: 140px;
     left: 119px;
-    top: 359px;
-    font-family: Ubuntu;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 64px;
-    line-height: 74px;
-    color: #FFFFFF;
+    top: 399px;
 }
 
 .logo{
@@ -27,28 +20,36 @@ h1{
 .contato{
     position: absolute;
     width: 106px;
-    height: 28px;
+    height: 48px;
     left: 1601px;
     top: 55px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
-    line-height: 28px;
     color: #FFFFFF;
 }
 
 .doe{
     position: absolute;
-    width: 47px;
+    width: 80px;
     height: 28px;
-    left: 1505px;
+    left: 1501px;
     top: 55px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
-    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.doeaqui{
+    position: absolute;
+    width: 100px;
+    height: 28px;
+    left: 269px;
+    top: 550px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
     color: #FFFFFF;
 }
 
@@ -70,6 +71,14 @@ h1{
     
 }
 
+.facebook{
+    position: absolute;
+    left: 97.51%;
+    right: 2.69%;
+    top: 94.38%;
+    bottom: 3.68%;
+}
+
 
 .plaquinha{
     position: absolute;
@@ -80,18 +89,38 @@ h1{
     background: url(images/2009421\ 1.png);
     backdrop-filter: blur(4px);
 }
+
+.rectangle{
+    position: absolute;
+    width: 168px;
+    height: 43px;
+    left: 220px;
+    top: 555px;
+    background: #006F37;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
 .sobre{
     position: absolute;
     width: 82px;
     height: 28px;
-    left: 1380px;
+    left: 1390px;
     top: 55px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
     color: #FFFFFF;
+}
+
+.twitter{
+    position: absolute;
+    left: 94.51%;
+    right: 2.69%;
+    top: 94.38%;
+    bottom: 3.68%;
 }
 
 .vector1 {
