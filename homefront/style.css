@@ -19,38 +19,44 @@ body{
 
 .contato{
     position: absolute;
-    width: 106px;
+    width: 200px;
     height: 48px;
-    left: 1601px;
+    left: 1701px;
     top: 55px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     color: #FFFFFF;
+    text-decoration:none;
+    font-size:20px;
 }
 
 .doe{
     position: absolute;
-    width: 80px;
+    width: 200px;
     height: 28px;
-    left: 1501px;
+    left: 1551px;
     top: 55px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     color: #FFFFFF;
+    text-decoration:none;
+    font-size:20px;
 }
 
 .doeaqui{
     position: absolute;
     width: 100px;
     height: 28px;
-    left: 269px;
-    top: 550px;
+    left: 261px;
+    top: 540px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     color: #FFFFFF;
+    font-size: 22px;
+    
 }
 
 .elipse1{
@@ -105,14 +111,14 @@ body{
 
 .sobre{
     position: absolute;
-    width: 82px;
+    width: 200px;
     height: 28px;
     left: 1390px;
     top: 55px;
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
     color: #FFFFFF;
+    text-decoration:none;
+    font-size:20px;
 }
 
 .twitter{
