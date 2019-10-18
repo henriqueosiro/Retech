@@ -65,7 +65,6 @@ body{
     height: 324px;
     left: 981px;
     top: 96px;
-
 }
 
 .elipse2{
@@ -90,7 +89,7 @@ body{
     position: absolute;
     width: 426px;
     height: 426px;
-    left: 1306px;
+    left: 1303px;
     top: 219px;
     background: url(images/2009421\ 1.png);
     backdrop-filter: blur(4px);
