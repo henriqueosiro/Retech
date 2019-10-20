@@ -1,7 +1,9 @@
 
 body{
-    background-color: black;
+    background-image: url(images/Background-pc.png);
+    margin: 0%;
 }
+
 .cadastro{
     color: white;
     display: flex;
@@ -20,3 +22,7 @@ body{
     height: 70px;
     
 }
+
+
+    
+    
