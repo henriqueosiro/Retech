@@ -11,7 +11,7 @@ body{
     display: flex;
     justify-content: center;
     font-size: 25px;
-    font-family: 'Kalam', cursive;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .div-cadastro{
@@ -25,150 +25,71 @@ body{
     
 }
 
-.div-cadastro2{
-    background-color: red;
-    height: 5%;
-    opacity: 0.85;
-    width: 100%;
-}
-
 
 .logo-retech{
     display: flex;
     justify-content: flex-end;
 }
 
-body{
-    background-color: rgb(224, 223, 223);;
-    margin: 0px;
-    padding: 0px;
-
+.formulario{
+    width: 400px;
+    padding: 30px;
+    border:1px solid #ccc;
 }
-
-.nome{
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-    font-family: 'Quicksand', sans-serif;
-    background-color: rgb(224, 223, 223);
-
+.formulario p{
+    width: 100%;
+    font-size: 1.5em;
 }
-
-.email{
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-    font-family: 'Quicksand', sans-serif;
-    background-color: rgb(224, 223, 223);
+.field{
+    width: 100%;
+    margin: 15px 0;
 }
-
-.telefone{
-    
-    display: flex;
-    flex-direction: center;
-    justify-content: space-around;  
-    font-family: 'Quicksand', sans-serif;
-    background-color: rgb(224, 223, 223);
-    
+.field label, 
+.field span{
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
 }
-
+.radiobox label{
+    width: auto;
+    display: inline-block;
+}
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=pais],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+input#nao{
+    margin-left: 30px;
+}
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
 .sexo{
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-    font-family: 'Quicksand', sans-serif;
-    background-color: rgb(224, 223, 223);
-        
-}
-
-.noticias{
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-    font-family: 'Quicksand', sans-serif;
-    background-color: rgb(224, 223, 223);
-
-}
-
-.senha{
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-    font-family: 'Quicksand', sans-serif;
-    background-color: rgb(224, 223, 223);
-
-}
-
-.pais{
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-    font-family: 'Quicksand', sans-serif;
-    background-color: rgb(224, 223, 223);
-
-}
-
-.estado{
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-    font-family: 'Quicksand', sans-serif;
-    background-color: rgb(224, 223, 223);
-}
-
-.foto{
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-    font-family: 'Quicksand', sans-serif;
-    background-color: rgb(224, 223, 223);
-
-}
-
-.produto{
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-    font-family: 'Quicksand', sans-serif;
-    background-color: rgb(224, 223, 223);
-
-}
-
-.dados-do-produto{
-    display: flex;
-    justify-content: center;
-    font-family: 'Quicksand', sans-serif;
-    background-color: rgb(224, 223, 223);
-
-}
-
-.botão{
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-    font-family: 'Quicksand', sans-serif;
-    background-color: rgb(224, 223, 223);
-
-}
-
-.pessoais{
-    display: flex;
-    font-family: 'Quicksand', sans-serif;
-    justify-content: center;
-    background-color: rgb(224, 223, 223);
-}
-
-
-
-.crie-a-senha{
-    display: flex;
-    font-family: 'Quicksand', sans-serif;
-    justify-content: center;
-    background-color: rgb(224, 223, 223);
-
-}
-
-
-
     
-    
+
+}
