@@ -25,6 +25,10 @@ body{
     
 }
 
+.div-cadastro2{
+    background-color: red;
+    opacity: 0.75;
+}
 
 .logo-retech{
     display: flex;
