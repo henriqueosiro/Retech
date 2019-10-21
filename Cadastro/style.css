@@ -38,6 +38,135 @@ body{
     justify-content: flex-end;
 }
 
+body{
+    background-color: rgb(224, 223, 223);;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.nome{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(224, 223, 223);
+
+}
+
+.email{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(224, 223, 223);
+}
+
+.telefone{
+    
+    display: flex;
+    flex-direction: center;
+    justify-content: space-around;  
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(224, 223, 223);
+    
+}
+
+.sexo{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(224, 223, 223);
+        
+}
+
+.noticias{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(224, 223, 223);
+
+}
+
+.senha{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(224, 223, 223);
+
+}
+
+.pais{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(224, 223, 223);
+
+}
+
+.estado{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(224, 223, 223);
+}
+
+.foto{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(224, 223, 223);
+
+}
+
+.produto{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(224, 223, 223);
+
+}
+
+.dados-do-produto{
+    display: flex;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(224, 223, 223);
+
+}
+
+.botão{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(224, 223, 223);
+
+}
+
+.pessoais{
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    justify-content: center;
+    background-color: rgb(224, 223, 223);
+}
+
+
+
+.crie-a-senha{
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    justify-content: center;
+    background-color: rgb(224, 223, 223);
+
+}
 
 
 
