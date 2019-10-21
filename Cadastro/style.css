@@ -1,7 +1,9 @@
 
 body{
-    background-image: url(images/Background-pc.png);
+    /* background-image: url(images/Background-pc.png); */
+    background-color: white;
     margin: 0%;
+    
 }
 
 .cadastro{
@@ -24,15 +26,19 @@ body{
 }
 
 .div-cadastro2{
-    background-color: #871713;
+    background-color: red;
     height: 5%;
+    opacity: 0.85;
     width: 100%;
 }
+
 
 .logo-retech{
     display: flex;
     justify-content: flex-end;
 }
+
+
 
 
     
