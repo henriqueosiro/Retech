@@ -1,0 +1,173 @@
+body{
+    background: black;
+    margin: 0;
+}
+
+.reprograme{
+    position: absolute;
+    height: 140px;
+    left: 119px;
+    top: 399px;
+    display:flex;  
+}
+
+.logo{
+    position: absolute;
+    width: 221px;
+    height: 158px;
+    left: 82px;
+    top: -10px;
+    display:flex;  
+}
+
+.contato{
+    position: absolute;
+    width: 200px;
+    height: 48px;
+    left: 1701px;
+    top: 55px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+    text-decoration:none;
+    font-size:20px;
+    display:flex;
+}
+
+.doe{
+    position: absolute;
+    width: 200px;
+    height: 28px;
+    left: 1551px;
+    top: 55px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+    text-decoration:none;
+    font-size:20px;
+    display:flex;
+    
+}
+
+.doeaqui{
+    position: absolute;
+    width: 100px;
+    height: 28px;
+    left: 255px;
+    top: 540px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+    font-size: 22px;
+    text-decoration:none;
+    display:flex;
+    
+}
+
+.elipse1{
+    position: absolute;
+    width: 324px;
+    height: 324px;
+    left: 981px;
+    top: 96px;
+    display:flex;
+    
+}
+
+.elipse2{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 1249px;
+    top: 492px;
+    display:flex;
+    
+}
+
+.facebook{
+    position: absolute;
+    left: 97.51%;
+    right: 2.69%;
+    top: 1500px;
+    bottom: 3.68%;
+}
+
+.plaquinha{
+    position: absolute;
+    width: 426px;
+    height: 426px;
+    left: 1280px;
+    top: 219px;
+    background: url(images/2009421\ 1.png);
+    backdrop-filter: blur(4px);
+    display:flex;
+    
+}
+
+.rectangle{
+    position: absolute;
+    width: 168px;
+    height: 43px;
+    left: 220px;
+    top: 555px;
+    background: #006F37;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    display:flex;
+}
+
+.sobre{
+    position: absolute;
+    width: 200px;
+    height: 28px;
+    left: 1390px;
+    top: 55px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    text-decoration:none;
+    font-size:20px;
+    display:flex;
+}
+
+.twitter{
+    position: absolute;
+    left: 94.51%;
+    right: 2.69%;
+    top: 1500px;
+    bottom: 3.68%;
+}
+
+.vector1 {
+    position: absolute;
+    width: 1119px;
+    height: 1302px;
+    left: 789px;
+    top: -175px;
+    display:flex;
+}
+
+.informacoes .p1{
+    top: 950px;
+    left: 150px;
+    width: 300px;
+    color: white;
+    font-size:25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+@media(min-width:1900px){
+    header{
+        display:flex;
+        left: 900px;
+        background-color: white;
+    }
+    
+}

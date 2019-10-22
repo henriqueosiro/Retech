@@ -1,5 +1,6 @@
 body{
     background: black;
+    margin: 0;
 }
 
 .reprograme{
@@ -94,9 +95,6 @@ body{
     bottom: 3.68%;
 }
 
-}
-
-
 .plaquinha{
     position: absolute;
     width: 426px;
@@ -153,26 +151,26 @@ body{
     display:flex;
 }
 
-
-.informacoes p{
-    position: absolute;
-    width: 450px;
-    height: 60px;
-    left: 200px;
-    top: 950px;
-    font-family: 'Roboto', sans-serif;
-    color: #FFFFFF;
-    font-size:20px;
-}
-
 .informacoes .p1{
-    top: 900px;
+    top: 950px;
     left: 150px;
     width: 300px;
     color: white;
     font-size:25px;
     font-family: 'Roboto', sans-serif;
 }
+
+.informacoes p{
+    position: absolute;
+    width: 450px;
+    height: 60px;
+    left: 200px;
+    top: 1000px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-size:20px;
+}
+
 .apoiadores h1{
     position: absolute;
     height: 50px;
