@@ -91,7 +91,7 @@ body{
     position: absolute;
     left: 97.51%;
     right: 2.69%;
-    top: 1500px;
+    top: 1150px;
     bottom: 3.68%;
 }
 
@@ -138,7 +138,7 @@ body{
     position: absolute;
     left: 94.51%;
     right: 2.69%;
-    top: 1500px;
+    top: 1150px;
     bottom: 3.68%;
 }
 
@@ -151,21 +151,55 @@ body{
     display:flex;
 }
 
-.informacoes .p1{
+.formulario{
     position: relative;
     top: 230px;
-    left: 150px;
+    left: 100px;
+    width: 700px;
+    padding: 30px;
+}
+.contatoh1{
+    position: relative;
+    top: 10px;
+    left: 10px;
     width: 300px;
     color: white;
     font-size:50px;
     font-family: 'Roboto', sans-serif;
 }
-
-@media(min-width:1900px){
-    header{
-        display:flex;
-        left: 900px;
-        background-color: white;
-    }
-    
+.field{
+    width: 100%;
+    margin: 15px 0;
 }
+
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+

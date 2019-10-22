@@ -23,8 +23,31 @@
 <body>
     <div class="informacoes">
         <p class="p1">Contato</p>
-        
     </div>
+    <form class="formulario"> 
+        <h1 class="contatoh1">Contato</h1>
+        <div class="field">
+            <label for="nome">Seu Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+        </div>
+
+        <div class="field">
+            <label for="email">Seu E-Mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+        </div>      
+
+        <div class="field">
+            <label for="telefone">Assunto</label>
+            <input type="text" id="assunto" name="assunto" placeholder="Digite o Assunto">
+        </div>
+
+        <div class="field">
+            <label for="">Digite sua mensagem</label>
+            <textarea name="mensagem" required="required" placeholder="Digite sua mensagem" cols="30" rows="15"></textarea>
+         </div>
+
+        <input type="submit" name="acao" value="Enviar">
+    </form>
 
 </body>
 <footer>
