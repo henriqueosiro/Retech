@@ -154,6 +154,48 @@ body{
     display:flex;
 }
 
+
+.informacoes p{
+    position: absolute;
+    width: 450px;
+    height: 60px;
+    left: 200px;
+    top: 950px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-size:20px;
+}
+
+.informacoes .p1{
+    top: 900px;
+    left: 150px;
+    width: 300px;
+    color: white;
+    font-size:25px;
+    font-family: 'Roboto', sans-serif;
+}
+.apoiadores h1{
+    position: absolute;
+    height: 50px;
+    top: 1200px;
+    left: 150px;
+    color: white;
+    font-size:30px;
+    font-family: 'Roboto', sans-serif;
+}
+.apoiadores .perifa{
+    position: absolute;
+    top: 1300px;
+    left: 150px;
+    width: 210px;
+}
+.apoiadores .mastertech{
+    position: absolute;
+    top: 1372px;
+    left: 450px;
+    width: 210px;
+}
+
 @media(min-width:1900px){
     header{
         display:flex;
