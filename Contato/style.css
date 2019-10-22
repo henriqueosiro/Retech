@@ -3,14 +3,6 @@ body{
     margin: 0;
 }
 
-.reprograme{
-    position: absolute;
-    height: 140px;
-    left: 119px;
-    top: 399px;
-    display:flex;  
-}
-
 .logo{
     position: absolute;
     width: 221px;
@@ -47,22 +39,6 @@ body{
     color: #FFFFFF;
     text-decoration:none;
     font-size:20px;
-    display:flex;
-    
-}
-
-.doeaqui{
-    position: absolute;
-    width: 100px;
-    height: 28px;
-    left: 255px;
-    top: 540px;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    color: #FFFFFF;
-    font-size: 22px;
-    text-decoration:none;
     display:flex;
     
 }
