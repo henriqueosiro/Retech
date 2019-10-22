@@ -6,6 +6,14 @@ body{
     
 }
 
+body::-webkit-scrollbar{ 
+
+    width: 0px; /*Remove o scrollbar space*/ 
+    
+    background: transparent; /* Optional: just make scrollbar invisible */ 
+    
+    } 
+
 .cadastro{
     color: white;
     display: flex;
@@ -36,6 +44,7 @@ h4{
 .div-cadastro2{
     background-color: red;
     opacity: 0.75;
+    border: none;
 }
 
 .logo-retech{
