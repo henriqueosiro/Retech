@@ -90,10 +90,10 @@ body{
     position: absolute;
     left: 97.51%;
     right: 2.69%;
-    top: 94.38%;
+    top: 1500px;
     bottom: 3.68%;
-    display:flex;
-    
+}
+
 }
 
 
@@ -140,9 +140,8 @@ body{
     position: absolute;
     left: 94.51%;
     right: 2.69%;
-    top: 94.38%;
+    top: 1500px;
     bottom: 3.68%;
-    display:flex;
 }
 
 .vector1 {
