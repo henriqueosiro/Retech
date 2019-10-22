@@ -14,6 +14,10 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
+h4{
+    font-family: 'Quicksand', sans-serif;
+}
+
 .div-cadastro{
     margin-left: 5px;
     margin-right: 5px;
@@ -27,6 +31,7 @@ body{
     
     
 }
+
 
 .div-cadastro2{
     background-color: red;
