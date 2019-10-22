@@ -1,6 +1,6 @@
 
 body{
-    /* background-image: url(images/Background-pc.png); */
+    
     background-color: white;
     margin: 0%;
     
@@ -8,9 +8,9 @@ body{
 
 body::-webkit-scrollbar{ 
 
-    width: 0px; /*Remove o scrollbar space*/ 
+    width: 0px;  
     
-    background: transparent; /* Optional: just make scrollbar invisible */ 
+    background: transparent; 
     
     } 
 
@@ -79,6 +79,7 @@ h4{
 input[type=text],
 input[type=email],
 input[type=password],
+input[type=date],
 input[type=pais],
 textarea{
     width: 100%;
@@ -88,6 +89,7 @@ textarea{
     border-radius: 15px;
     border: 1px solid #ccc;
     outline: none;
+    font-family: 'Quicksand', sans-serif;
 }
 input#nao{
     margin-left: 30px;
@@ -109,8 +111,4 @@ input[type=submit]{
     margin: 0 auto;
     text-align: center;
     border-radius: 15px;
-}
-.sexo{
-    
-
 }
