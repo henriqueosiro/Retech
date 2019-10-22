@@ -34,7 +34,7 @@ h4{
     border: none;
     display: flex;
     justify-content: center;
-     width: 100%; 
+    width: 100%; 
     height: 70px;
     
     
@@ -42,9 +42,11 @@ h4{
 
 
 .div-cadastro2{
+    align-items: center;
     background-color: red;
-    opacity: 0.75;
     border: none;
+    opacity: 0.75;
+    width: 100%;
 }
 
 .logo-retech{
