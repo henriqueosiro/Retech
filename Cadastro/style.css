@@ -79,7 +79,7 @@ h4{
 input[type=text],
 input[type=email],
 input[type=password],
-input[type=pais],
+input[type=date],
 textarea{
     width: 100%;
     padding-left: 10px;
