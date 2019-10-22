@@ -164,8 +164,8 @@ body{
     position: absolute;
     width: 450px;
     height: 60px;
-    left: 200px;
-    top: 1000px;
+    left: 150px;
+    top: 1020px;
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
     font-size:20px;
@@ -174,7 +174,7 @@ body{
 .apoiadores h1{
     position: absolute;
     height: 50px;
-    top: 1200px;
+    top: 1300px;
     left: 150px;
     color: white;
     font-size:30px;
@@ -182,13 +182,13 @@ body{
 }
 .apoiadores .perifa{
     position: absolute;
-    top: 1300px;
+    top: 1400px;
     left: 150px;
     width: 210px;
 }
 .apoiadores .mastertech{
     position: absolute;
-    top: 1372px;
+    top: 1472px;
     left: 450px;
     width: 210px;
 }
