@@ -200,6 +200,19 @@ body{
     width: 210px;
 }
 
+.sobre:hover{
+color: rgb(5, 151, 76);
+}
+.doe:hover{
+color: rgb(5, 151, 76);
+}
+.contato:hover{
+color: rgb(5, 151, 76);
+}
+.doeaqui:hover{
+color: black;
+}
+
 @media(min-width: 1800px) {
     .vector1{
         left: 900px;
