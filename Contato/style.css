@@ -152,16 +152,14 @@ body{
 }
 
 .informacoes .p1{
-    top: 950px;
+    position: relative;
+    top: 230px;
     left: 150px;
     width: 300px;
     color: white;
-    font-size:25px;
+    font-size:50px;
     font-family: 'Roboto', sans-serif;
 }
-
-
-
 
 @media(min-width:1900px){
     header{
