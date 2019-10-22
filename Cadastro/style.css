@@ -15,13 +15,16 @@ body{
 }
 
 .div-cadastro{
+    margin-left: 5px;
+    margin-right: 5px;
     align-items: center;
     background-color: #006f37;
     border: none;
     display: flex;
     justify-content: center;
-    width: 100%;
+     width: 100%; 
     height: 70px;
+    
     
 }
 
