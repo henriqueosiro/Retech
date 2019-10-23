@@ -31,7 +31,7 @@ class Cadastro(models.Model):
     sexo = models.CharField(choices=SEXO, verbose_name='Sexo')
     telefone = models.IntegerField(min_length=11, max_length=11, verbose_name='Telefone')
 
-    def criar(self):
+    def doar(self):
         self.criado_em = timezone.now()
         self.save()
 
@@ -44,7 +44,7 @@ class Contato(models.Model):
     mensagem = models.TextField(verbose_name='Mensagem')
     nome = models.CharField(max_length=255, verbose_name='Nome')
 
-    def criar(self):
+    def publicar(self):
         self.criado_em = timezone.now()
         self.save()
 
