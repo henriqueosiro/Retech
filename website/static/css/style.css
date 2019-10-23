@@ -1,121 +1,11 @@
 
+
 body{
-    
-    background-color: black;
-    margin: 0%;
-    
+    background: black;
+    margin: 0;
 }
 
-body::-webkit-scrollbar{ 
-
-    width: 0px;  
-    
-    background: transparent; 
-    
-    } 
-
-.cadastro{
-    color: white;
-    display: flex;
-    justify-content: center;
-    font-size: 25px;
-    font-family: 'Quicksand', sans-serif;
-}
-
-h4{
-    font-family: 'Quicksand', sans-serif;
-}
-
-.div-cadastro{
-    margin-left: 5px;
-    margin-right: 5px;
-    align-items: center;
-    background-color: #006f37;
-    border: none;
-    display: flex;
-    justify-content: center;
-    width: 100%; 
-    height: 70px;
-    
-    
-}
-
-
-.div-cadastro2{
-    background-color: red;
-    opacity: 0.75;
-    
-}
-
-.logo-retech{
-    display: flex;
-    justify-content: flex-end;
-}
-
-.formulario{
-    width: 400px;
-    padding: 30px;
-    border:1px solid #ccc;
-    color: white;
-}
-.formulario p{
-    width: 100%;
-    font-size: 1.5em;
-}
-.field{
-    width: 100%;
-    margin: 15px 0;
-}
-.field label, 
-.field span{
-    padding-left: 10px;
-    font-size: 1.1em;
-    display: block;
-    width: 100%;
-}
-.radiobox label{
-    width: auto;
-    display: inline-block;
-}
-input[type=text],
-input[type=email],
-input[type=password],
-input[type=date],
-input[type=pais],
-textarea{
-    width: 100%;
-    padding-left: 10px;
-    height: 30px;
-    line-height: 30px;
-    border-radius: 15px;
-    border: 1px solid #ccc;
-    outline: none;
-    font-family: 'Quicksand', sans-serif;
-}
-input#nao{
-    margin-left: 30px;
-}
-textarea{
-    line-height: 20px;
-    padding: 10px;
-    height: 90px;
-    resize: none;
-}
-input[type=submit]{
-    display: block;
-    background-color: #ccc;
-    height: 35px;
-    border: none;
-    outline: 0;
-    cursor: pointer;
-    width: 100px;
-    margin: 0 auto;
-    text-align: center;
-    border-radius: 15px;
-}
- /* TESTANDO */
-
- .reprograme{
+.reprograme{
     position: absolute;
     height: 140px;
     left: 119px;
@@ -130,6 +20,7 @@ input[type=submit]{
     left: 82px;
     top: -10px;
     display:flex;  
+    max-width: 100%;
 }
 
 .contato{
@@ -160,7 +51,6 @@ input[type=submit]{
     text-decoration:none;
     font-size:20px;
     display:flex;
-    
 }
 
 .doeaqui{
@@ -196,6 +86,7 @@ input[type=submit]{
     left: 1249px;
     top: 492px;
     display:flex;
+    max-width: 100%;
     
 }
 
@@ -205,6 +96,7 @@ input[type=submit]{
     right: 2.69%;
     top: 1500px;
     bottom: 3.68%;
+    max-width: 100%;
 }
 
 .plaquinha{
@@ -213,9 +105,10 @@ input[type=submit]{
     height: 426px;
     left: 1280px;
     top: 219px;
-    background: url(images/2009421\ 1.png);
+    background: url(../img/2009421\ 1.png);
     backdrop-filter: blur(4px);
     display:flex;
+    max-width: 100%;
     
 }
 
@@ -231,6 +124,7 @@ input[type=submit]{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
     display:flex;
+    max-width: 100%;
 }
 
 .sobre{
@@ -261,9 +155,10 @@ input[type=submit]{
     left: 789px;
     top: -175px;
     display:flex;
+    max-width: 100%;
 }
 
-.informacoes .p1{
+#sob{
     top: 950px;
     left: 150px;
     width: 300px;
@@ -272,12 +167,12 @@ input[type=submit]{
     font-family: 'Roboto', sans-serif;
 }
 
-.informacoes p{
+#sob{
     position: absolute;
     width: 450px;
     height: 60px;
-    left: 200px;
-    top: 1000px;
+    left: 150px;
+    top: 1020px;
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
     font-size:20px;
@@ -286,7 +181,7 @@ input[type=submit]{
 .apoiadores h1{
     position: absolute;
     height: 50px;
-    top: 1200px;
+    top: 1330px;
     left: 150px;
     color: white;
     font-size:30px;
@@ -294,22 +189,60 @@ input[type=submit]{
 }
 .apoiadores .perifa{
     position: absolute;
-    top: 1300px;
+    top: 1400px;
     left: 150px;
     width: 210px;
 }
 .apoiadores .mastertech{
     position: absolute;
-    top: 1372px;
+    top: 1450px;
     left: 450px;
     width: 210px;
 }
 
-@media(min-width:1900px){
-    header{
-        display:flex;
-        left: 900px;
-        background-color: white;
-    }
-    
+.sobre:hover{
+color: rgb(5, 151, 76);
 }
+.doe:hover{
+color: rgb(5, 151, 76);
+}
+.contato:hover{
+color: rgb(5, 151, 76);
+}
+.doeaqui:hover{
+color: black;
+}
+
+@media(min-width: 1800px) {
+    .vector1{
+        left: 900px;
+    }
+    .elipse1{
+        left: 1100px;
+    }
+    .elipse2{
+        left: 1350px;
+    }
+    .plaquinha{
+        left: 1400px;
+    }
+ }
+
+ @media(max-width: 500px) {
+     .vector1{
+         display: none;
+     }
+     .elipse1{
+         display: none;
+     }
+     .elipse2{
+         display: none;
+     }
+     .plaquinha{
+         display: none;
+    }
+    .logo{
+        left: 150px;
+    }
+ }
+

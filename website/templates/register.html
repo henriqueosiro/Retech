@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../static/css/register_style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../static/img/icon.png" />
+    <title>Retech - Cadastro</title>
+</head>
+
+<!-- TESTANDO -->
+
+<header>
+    <div>
+
+        <img src="../static/img/Ellipse 1.png" alt="elipse1" class=elipse1>
+        <img src="../static/img/Ellipse 2.png" alt="elipse2" class=elipse2>
+        <img src="../static/img/Vector 1.png" alt="vector" class=vector1>
+
+
+    </div>
+</header>
+
+<!-- TESTANDO -->
+
+<body>
+
+    <!-- TESTANDO -->
+
+    <div class="apoiadores">
+        <h1> Apoiadores</h1>
+        <img src="../static/img/perifaCode-white.png" alt="perifacode" class="perifa">
+        <img src="../static/img/logo-mastertech-branco.png" alt="mastertech" class="mastertech">
+
+        <!-- TESTANDO -->
+        <div class="div-cadastro">
+
+            <a class="cadastro">Cadastre-se aqui para doar</a>
+            <img class="logo-retech" src="../static/img/logo transparent 1.png" alt="logo-retech">
+
+        </div>
+
+
+
+        <form class="formulario" method="post">
+            <p> Doe preenchendo o formulário abaixo </p>
+            <h4>*Informamos que por hora, o projeto só atende a regiões da grande São Paulo,
+                em breve vamos estender a área de atendimento*
+            </h4>
+
+            <div class="field">
+                <label for="nome">Seu Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+            </div>
+
+            <div class="field">
+                <label for="email">Seu E-Mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+            </div>
+
+            <div class="field">
+                <label for="telefone">Seu Telefone:</label>
+                <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+            </div>
+
+            <div class="field">
+                <label for="data de nascimento">Qual a sua data de nascimento ?</label>
+                <input id="date" type="date">
+
+            </div>
+
+            <div class="field">
+
+                <p>Selecione o seu sexo/gênero</p>
+                <label for="sexo1"><input name="Sexo" id="sexo1" required="required" value="m"
+                        type="radio">Masculino</label>
+                <label for="sexo2"><input name="Sexo" id="sexo2" required="required" value="f"
+                        type="radio">Feminino</label>
+                <label for="sexo3"><input name="Sexo" id="sexo3" required="required" value="n" type="radio">Prefiro não
+                    informar</label>
+
+            </div>
+
+            <div class="field">
+                <label for="">Selecione a sua região</label>
+                <select required="required" name="País" type="pais">
+                    <option selected="selected" value="">Selecione</option>
+                    <option value="p.1">Zona Norte</option>
+                    <option value="p.2">Zona Sul</option>
+                    <option value="p.3">Zona Leste</option>
+                    <option value="p.4">Zona Oeste</option>
+
+
+                </select>
+
+            </div>
+
+
+            <div class="field">
+                <label for="">Foto do produto</label>
+                <input required="required" name="foto" type="file">
+
+            </div>
+
+            <div class="field">
+                <label for="">Especifique as condições do seu produto</label>
+                <textarea name="Condições do objeto" required="required"
+                    placeholder="Descreva aqui as condições do seu produto e especificações sobre ele" cols="30"
+                    rows="15"></textarea>
+            </div>
+
+            <div class="field">
+                <label for="">Escolha uma senha</label>
+                <input required="required" placeholder="escolha uma senha" name="senha" type="password">
+            </div>
+
+
+
+            <div class="field radiobox">
+                <span>Deseja receber nossas novidades?</span>
+                <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+                <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+            </div>
+
+            <input type="submit" name="acao" value="Enviar">
+        </form>
+
+
+
+
+</body>
+
+</html>

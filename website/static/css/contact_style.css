@@ -1,16 +1,6 @@
-body {overflow-x:hidden;}
-
 body{
     background: black;
     margin: 0;
-}
-
-.reprograme{
-    position: absolute;
-    height: 140px;
-    left: 119px;
-    top: 399px;
-    display:flex;  
 }
 
 .logo{
@@ -20,7 +10,6 @@ body{
     left: 82px;
     top: -10px;
     display:flex;  
-    max-width: 100%;
 }
 
 .contato{
@@ -54,22 +43,6 @@ body{
     
 }
 
-.doeaqui{
-    position: absolute;
-    width: 100px;
-    height: 28px;
-    left: 255px;
-    top: 540px;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    color: #FFFFFF;
-    font-size: 22px;
-    text-decoration:none;
-    display:flex;
-    
-}
-
 .elipse1{
     position: absolute;
     width: 324px;
@@ -87,7 +60,6 @@ body{
     left: 1249px;
     top: 492px;
     display:flex;
-    max-width: 100%;
     
 }
 
@@ -95,9 +67,8 @@ body{
     position: absolute;
     left: 97.51%;
     right: 2.69%;
-    top: 1500px;
+    top: 1150px;
     bottom: 3.68%;
-    max-width: 100%;
 }
 
 .plaquinha{
@@ -106,10 +77,9 @@ body{
     height: 426px;
     left: 1280px;
     top: 219px;
-    background: url(images/2009421\ 1.png);
+    background: url(../img/2009421\ 1.png);
     backdrop-filter: blur(4px);
     display:flex;
-    max-width: 100%;
     
 }
 
@@ -125,7 +95,6 @@ body{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
     display:flex;
-    max-width: 100%;
 }
 
 .sobre{
@@ -145,7 +114,7 @@ body{
     position: absolute;
     left: 94.51%;
     right: 2.69%;
-    top: 1500px;
+    top: 1150px;
     bottom: 3.68%;
 }
 
@@ -156,94 +125,57 @@ body{
     left: 789px;
     top: -175px;
     display:flex;
-    max-width: 100%;
 }
 
-#sob{
-    top: 950px;
-    left: 150px;
+.formulario{
+    position: relative;
+    top: 230px;
+    left: 100px;
+    width: 700px;
+    padding: 30px;
+}
+.contatoh1{
+    position: relative;
+    top: 10px;
+    left: 10px;
     width: 300px;
     color: white;
-    font-size:25px;
+    font-size:50px;
     font-family: 'Roboto', sans-serif;
 }
-
-#sob{
-    position: absolute;
-    width: 450px;
-    height: 60px;
-    left: 150px;
-    top: 1020px;
-    font-family: 'Roboto', sans-serif;
-    color: #FFFFFF;
-    font-size:20px;
+.field{
+    width: 100%;
+    margin: 15px 0;
 }
 
-.apoiadores h1{
-    position: absolute;
-    height: 50px;
-    top: 1330px;
-    left: 150px;
-    color: white;
-    font-size:30px;
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
     font-family: 'Roboto', sans-serif;
 }
-.apoiadores .perifa{
-    position: absolute;
-    top: 1400px;
-    left: 150px;
-    width: 210px;
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
 }
-.apoiadores .mastertech{
-    position: absolute;
-    top: 1450px;
-    left: 450px;
-    width: 210px;
+input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
 }
-
-.sobre:hover{
-color: rgb(5, 151, 76);
-}
-.doe:hover{
-color: rgb(5, 151, 76);
-}
-.contato:hover{
-color: rgb(5, 151, 76);
-}
-.doeaqui:hover{
-color: black;
-}
-
-@media(min-width: 1800px) {
-    .vector1{
-        left: 900px;
-    }
-    .elipse1{
-        left: 1100px;
-    }
-    .elipse2{
-        left: 1350px;
-    }
-    .plaquinha{
-        left: 1400px;
-    }
- }
-
- @media(max-width: 500px) {
-     .vector1{
-         display: none;
-     }
-     .elipse1{
-         display: none;
-     }
-     .elipse2{
-         display: none;
-     }
-     .plaquinha{
-         display: none;
-    }
-    .logo{
-        left: 150px;
-    }
- }
 
