@@ -35,7 +35,7 @@ def contato(request):
             'resposta': 'Muito obrigado, entraremos em contato em breve!'
         }
 
-        return render(request, 'cadastro.html', args)
+        return render(request, 'contato.html', args)
 
     return render(request, 'index.html')
 
