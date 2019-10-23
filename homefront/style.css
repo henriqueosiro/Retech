@@ -109,6 +109,7 @@ body{
     background: url(images/2009421\ 1.png);
     backdrop-filter: blur(4px);
     display:flex;
+    max-width: 100%;
     
 }
 
@@ -225,6 +226,24 @@ color: black;
     }
     .plaquinha{
         left: 1400px;
+    }
+ }
+
+ @media(max-width: 500px) {
+     .vector1{
+         display: none;
+     }
+     .elipse1{
+         display: none;
+     }
+     .elipse2{
+         display: none;
+     }
+     .plaquinha{
+         display: none;
+    }
+    .logo{
+        left: 150px;
     }
  }
 
