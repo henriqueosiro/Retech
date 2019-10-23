@@ -23,4 +23,19 @@ def cadastro(request):
 
     return render(request, 'index.html')
 
+def contato(request):
+    if request.method == 'POST':
+        data_usuario = Contato()
+        data_usuario.assunto = request.POST['assunto']
+        data_usuario.email = request.POST['email']
+        data_usuario.mensagem = request.POST['mensagem']
+        data_usuario.nome = request.POST['nome']
+
+        args = {
+            'resposta': 'Muito obrigado, entraremos em contato em breve!'
+        }
+
+        return render(request, 'cadastro.html', args)
+
+    return render(request, 'index.html')
 
