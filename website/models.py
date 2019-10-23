@@ -19,7 +19,7 @@ class Cadastro(models.Model):
         ('f', 'Feminino'),
         ('n', 'None'),
     )   
-
+    criado_em = models.DateTimeField(default=timezone.now)
     descricao = models.TextField(verbose_name='Descrição do Equipamento')
     email = models.EmailField(max_length=255, verbose_name='Email', unique=True)
     foto = models.ImageField(verbose_name='Foto do Equipamento')
@@ -31,22 +31,15 @@ class Cadastro(models.Model):
     sexo = models.CharField(choices=SEXO, verbose_name='Sexo')
     telefone = models.IntegerField(min_length=11, max_length=11, verbose_name='Telefone')
 
-    def doar(self):
-        self.criado_em = timezone.now()
-        self.save()
-
     def __str__(self):
         return self.nome
 
 class Contato(models.Model):
     assunto = models.CharField(max_length=255, verbose_name='Assunto')
+    criado_em = models.DateTimeField(default=timezone.now)
     email = models.EmailField(max_length=255, verbose_name='Email', unique=True)
     mensagem = models.TextField(verbose_name='Mensagem')
     nome = models.CharField(max_length=255, verbose_name='Nome')
-
-    def publicar(self):
-        self.criado_em = timezone.now()
-        self.save()
 
     def __str__(self):
         return self.email
