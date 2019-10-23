@@ -1,1 +1,1 @@
-web: gunicorn retech.wsgi
+web: gunicorn retech.wsgi --log-file -
