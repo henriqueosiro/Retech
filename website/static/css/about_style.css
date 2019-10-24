@@ -70,7 +70,7 @@ body{
     height: 426px;
     left: 1280px;
     top: 219px;
-    background: url(../img/2009421.png);
+    background: url("../img/2009421.png");
     backdrop-filter: blur(4px);
 }
 
