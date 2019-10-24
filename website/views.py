@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from website.models import *
 
-def cadastro(request):
+def cadastrar(request):
     if request.method == 'POST':
         data_usuario = Cadastro()
         data_usuario.descricao = request.POST['descricao']
@@ -23,7 +23,10 @@ def cadastro(request):
 
     return render(request, 'index.html')
 
-def contato(request):
+def cadastro(request):
+    return render(request, 'cadastro.html')
+
+def contatar(request):
     if request.method == 'POST':
         data_usuario = Contato()
         data_usuario.assunto = request.POST['assunto']
@@ -38,6 +41,9 @@ def contato(request):
         return render(request, 'contato.html', args)
 
     return render(request, 'index.html')
+
+def contato(request):
+    return render(request, 'contato.html')
 
 def inicio(request):
     return render(request, 'index.html')
