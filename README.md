@@ -4,9 +4,10 @@
 
 - [x] Fazer home
 - [x] Fazer logo
-- [ ] Versão mobile
 - [x] Posicionamento estar okay
-- [ ] Animações de formulario - JS
-- [ ] Animações na home - JS
+- [x] Colocar no Heroku
+- [x] Fazer texto base
+- [ ] Terminar slide
+
 
 
