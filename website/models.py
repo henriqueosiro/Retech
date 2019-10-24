@@ -27,7 +27,7 @@ class Cadastro(models.Model):
     nome = models.CharField(max_length=255, verbose_name='Nome')
     novidades = models.CharField(choices=NOVIDADES, verbose_name='Novidades')
     regiao = models.CharField(choices=REGIAO, verbose_name='Região')
-    senha = models.CharField(min_length=8, max_length=16, verbose_name='Senha')
+    senha = models.CharField(max_length=16, verbose_name='Senha')
     sexo = models.CharField(choices=SEXO, verbose_name='Sexo')
     telefone = models.IntegerField(min_length=11, max_length=11, verbose_name='Telefone')
 
@@ -42,4 +42,4 @@ class Contato(models.Model):
     nome = models.CharField(max_length=255, verbose_name='Nome')
 
     def __str__(self):
-        return self.email
+        return self.nome
