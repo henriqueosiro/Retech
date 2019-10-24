@@ -1,4 +1,4 @@
-
+body { overflow-x: hidden;}
 body{
     
     background-color: black;
@@ -296,11 +296,35 @@ input[type=submit]{
     width: 210px;
 }
 
-@media(min-width:1900px){
-    header{
-        display:flex;
+@media(min-width: 1800px) {
+    .vector1{
         left: 900px;
-        background-color: white;
     }
-    
-}
+    .elipse1{
+        left: 1100px;
+    }
+    .elipse2{
+        left: 1350px;
+    }
+    .plaquinha{
+        left: 1400px;
+    }
+ }
+
+ @media(max-width: 500px) {
+     .vector1{
+         display: none;
+     }
+     .elipse1{
+         display: none;
+     }
+     .elipse2{
+         display: none;
+     }
+     .plaquinha{
+         display: none;
+    }
+    .logo{
+        left: 150px;
+    }
+ }
