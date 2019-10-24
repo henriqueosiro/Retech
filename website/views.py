@@ -1,9 +1,6 @@
 from django.shortcuts import render, redirect
 from website.models import *
 
-def index(request):
-    return render(request, 'index.html')
-
 def cadastro(request):
     if request.method == 'POST':
         data_usuario = Cadastro()
@@ -42,3 +39,8 @@ def contato(request):
 
     return render(request, 'index.html')
 
+def inicio(request):
+    return render(request, 'index.html')
+
+def sobre(request):
+    return render(request, 'about.html')
