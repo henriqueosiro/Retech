@@ -26,7 +26,8 @@
     <div class="informacoes">
         <p class="p1">Contato</p>
     </div>
-    <form class="formulario"> 
+    <form class="formulario">
+        {% csrf_token %}        
         <h1 class="contatoh1">Contato</h1>
         <div class="field">
             <label for="nome">Seu Nome:</label>
