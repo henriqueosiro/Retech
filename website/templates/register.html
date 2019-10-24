@@ -60,32 +60,31 @@
 
             <div class="field">
                 <label for="data de nascimento">Qual a sua data de nascimento ?</label>
-                <input id="date" type="date">
+                <input type="date" id="nascimento" name="nascimento">
 
             </div>
 
             <div class="field">
 
                 <p>Selecione o seu sexo/gênero</p>
-                <label for="sexo1"><input name="Sexo" id="sexo1" required="required" value="m"
-                        type="radio">Masculino</label>
-                <label for="sexo2"><input name="Sexo" id="sexo2" required="required" value="f"
+                <label for="sexo2"><input name="sexo" id="sexo1" required="required" value="f"
                         type="radio">Feminino</label>
-                <label for="sexo3"><input name="Sexo" id="sexo3" required="required" value="n" type="radio">Prefiro não
+                <label for="sexo1"><input name="sexo" id="sexo2" required="required" value="m"
+                        type="radio">Masculino</label>
+                <label for="sexo3"><input name="sexo" id="sexo3" required="required" value="n" type="radio">Prefiro não
                     informar</label>
 
             </div>
 
             <div class="field">
                 <label for="">Selecione a sua região</label>
-                <select required="required" name="País" type="pais">
+                <select required="required" name="regiao" type="pais">
                     <option selected="selected" value="">Selecione</option>
-                    <option value="p.1">Zona Norte</option>
-                    <option value="p.2">Zona Sul</option>
-                    <option value="p.3">Zona Leste</option>
-                    <option value="p.4">Zona Oeste</option>
-
-
+                    <option value="p.0">Centro</option>
+                    <option value="p.1">Zona Leste</option>
+                    <option value="p.2">Zona Norte</option>
+                    <option value="p.3">Zona Oeste</option>
+                    <option value="p.4">Zona Sul</option>
                 </select>
 
             </div>
@@ -99,7 +98,7 @@
 
             <div class="field">
                 <label for="">Especifique as condições do seu produto</label>
-                <textarea name="Condições do objeto" required="required"
+                <textarea name="descricao" required="required"
                     placeholder="Descreva aqui as condições do seu produto e especificações sobre ele" cols="30"
                     rows="15"></textarea>
             </div>

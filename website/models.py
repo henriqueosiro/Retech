@@ -9,14 +9,15 @@ class Cadastro(models.Model):
     )
 
     REGIAO = (
-        ('p.1', 'Zona Norte'),
-        ('p.2', 'Zona Sul'),
-        ('p.3', 'Zona Leste'),
-        ('p.4', 'Zona Oeste'),
+        ('p.0', 'Centro'),
+        ('p.1', 'Zona Leste'),
+        ('p.2', 'Zona Norte'),
+        ('p.3', 'Zona Oeste'),
+        ('p.4', 'Zona Sul'),
     )
     SEXO = (
-        ('m', 'Masculino'),
         ('f', 'Feminino'),
+        ('m', 'Masculino'),
         ('n', 'None'),
     )   
     criado_em = models.DateTimeField(default=timezone.now)
