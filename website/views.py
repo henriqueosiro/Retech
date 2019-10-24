@@ -21,7 +21,7 @@ def cadastro(request):
 
         return render(request, 'register.html', args)
 
-    return render(request, 'index.html')
+    return render(request, 'register.html')
 
 def contato(request):
     if request.method == 'POST':
@@ -37,7 +37,7 @@ def contato(request):
 
         return render(request, 'contact.html', args)
 
-    return render(request, 'index.html')
+    return render(request, 'contact.html')
 
 def inicio(request):
     return render(request, 'index.html')
