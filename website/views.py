@@ -19,12 +19,12 @@ def cadastrar(request):
             'resposta': 'Parabéns, você conseguiu fazer uma doação. Muito obrigado!'
         }
 
-        return render(request, 'cadastro.html', args)
+        return render(request, 'register.html', args)
 
     return render(request, 'index.html')
 
 def cadastro(request):
-    return render(request, 'cadastro.html')
+    return render(request, 'register.html')
 
 def contatar(request):
     if request.method == 'POST':
@@ -38,12 +38,12 @@ def contatar(request):
             'resposta': 'Muito obrigado, entraremos em contato em breve!'
         }
 
-        return render(request, 'contato.html', args)
+        return render(request, 'contact.html', args)
 
     return render(request, 'index.html')
 
 def contato(request):
-    return render(request, 'contato.html')
+    return render(request, 'register.html')
 
 def inicio(request):
     return render(request, 'index.html')
