@@ -1,7 +1,4 @@
-body::-webkit-scrollbar{ 
-    width: 0px;  
-    background: transparent; 
-}
+body { overflow-x: hidden;}
 
 body{
     background: black;
