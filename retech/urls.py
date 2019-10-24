@@ -22,5 +22,4 @@ urlpatterns = [
     path('', views.inicio),
     path('cadastro', views.cadastro),
     path('contato', views.contato),
-    path('sobre', views.sobre)
 ]
