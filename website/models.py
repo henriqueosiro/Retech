@@ -25,10 +25,10 @@ class Cadastro(models.Model):
     foto = models.ImageField(verbose_name='Foto do Equipamento')
     nascimento = models.DateField(verbose_name='Data de Nascimento')
     nome = models.CharField(max_length=255, verbose_name='Nome')
-    novidades = models.CharField(choices=NOVIDADES, verbose_name='Novidades')
-    regiao = models.CharField(choices=REGIAO, verbose_name='Região')
+    novidades = models.CharField(max_length=3, choices=NOVIDADES, verbose_name='Novidades')
+    regiao = models.CharField(max_length=10, choices=REGIAO, verbose_name='Região')
     senha = models.CharField(max_length=16, verbose_name='Senha')
-    sexo = models.CharField(choices=SEXO, verbose_name='Sexo')
+    sexo = models.CharField(max_length=9, choices=SEXO, verbose_name='Sexo')
     telefone = models.IntegerField(max_length=11, verbose_name='Telefone')
 
     def __str__(self):
