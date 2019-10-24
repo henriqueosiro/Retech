@@ -1,4 +1,7 @@
-
+body::-webkit-scrollbar{ 
+    width: 0px;  
+    background: transparent; 
+}
 
 body{
     background: black;

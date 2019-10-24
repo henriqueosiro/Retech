@@ -127,15 +127,15 @@ body{
 .informacoes h1{
     position: absolute;
     height: 50px;
-    top: 200px;
-    left: 150px;
+    top: 290px;
+    left: 200px;
     color: white;
     font-size:30px;
     font-family: 'Roboto', sans-serif;
 }
 .informacoes .p1{
     top: 250px;
-    left: 150px;
+    left: 200px;
     width: 300px;
     color: white;
     font-size:25px;

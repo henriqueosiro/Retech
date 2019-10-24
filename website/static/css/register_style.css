@@ -17,9 +17,11 @@ body::-webkit-scrollbar{
 .cadastro{
     color: white;
     display: flex;
-    justify-content: center;
     font-size: 25px;
     font-family: 'Quicksand', sans-serif;
+    right: 1250px;
+    position: absolute;
+
 }
 
 h4{
@@ -55,8 +57,9 @@ h4{
 .formulario{
     width: 400px;
     padding: 30px;
-    border:1px solid #ccc;
     color: white;
+    left: 300px;
+    position: absolute;
 }
 .formulario p{
     width: 100%;
@@ -113,7 +116,7 @@ input[type=submit]{
     text-align: center;
     border-radius: 15px;
 }
- /* TESTANDO */
+
 
  .reprograme{
     position: absolute;
@@ -194,7 +197,7 @@ input[type=submit]{
     width: 220px;
     height: 220px;
     left: 1249px;
-    top: 492px;
+    top: 392px;
     display:flex;
     
 }
