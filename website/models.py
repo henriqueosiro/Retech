@@ -29,7 +29,7 @@ class Cadastro(models.Model):
     regiao = models.CharField(choices=REGIAO, verbose_name='Região')
     senha = models.CharField(max_length=16, verbose_name='Senha')
     sexo = models.CharField(choices=SEXO, verbose_name='Sexo')
-    telefone = models.IntegerField(min_length=11, max_length=11, verbose_name='Telefone')
+    telefone = models.IntegerField(max_length=11, verbose_name='Telefone')
 
     def __str__(self):
         return self.nome
